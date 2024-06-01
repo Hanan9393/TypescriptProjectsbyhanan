@@ -1,9 +1,7 @@
-let guess: number = 5;
-let target: number = 5;
-if (guess<target){
-    console.log(" your guess is too low. ");
-} else if (guess>target) {
-    console.log("your guess is too high. ");
+let isRaining = false;
+if (isRaining){
+    console.log("wear a raincoat. ");
+
 } else {
-    console.log("you guessed correctly. ");
+    console.log("wear a sunglasses. ");
 }
