@@ -1,7 +1,3 @@
-let isRaining = false;
-if (isRaining){
-    console.log("wear a raincoat. ");
-
-} else {
-    console.log("wear a sunglasses. ");
-}
+let isHungry = false;
+let snack = isHungry ? "apple" : "water";
+console.log(`you should have some ${snack}. `);

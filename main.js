@@ -1,7 +1,3 @@
-var isRaining = false;
-if (isRaining) {
-    console.log("wear a raincoat. ");
-}
-else {
-    console.log("wear a sunglasses. ");
-}
+var isHungry = false;
+var snack = isHungry ? "apple" : "water";
+console.log("you should have some ".concat(snack, ". "));
