@@ -1,1 +1,2 @@
-console.log("hello world");
+import a from "./first.js";
+console.log(a);
