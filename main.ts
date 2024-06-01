@@ -1,12 +1,9 @@
-let dayOff = "sunday";
-switch (dayOff) {
-    case "saturday":
-    console.log("Go hiking. ");
-    break;
-    case "sunday":
-    console.log("read a book");
-    break;
-    default:
-    console.log ("work on a hobby");
-
+let guess: number = 5;
+let target: number = 5;
+if (guess<target){
+    console.log(" your guess is too low. ");
+} else if (guess>target) {
+    console.log("your guess is too high. ");
+} else {
+    console.log("you guessed correctly. ");
 }
